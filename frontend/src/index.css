@@ -1,0 +1,75 @@
+@import "tailwindcss";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.animate-fadeIn {
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+@theme {
+    --color-secondPrimary: #222327;
+    --color-primary: Black;
+    --color-textColor: #FAC400;
+}
+
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.animate-scaleIn {
+    animation: scaleIn .2s ease;
+}
+
+/* Custom hero slide — fills viewport exactly */
+.hero-slide {
+    position: relative;
+    width: 100%;
+    height: 100svh;
+    min-height: 500px;
+    overflow: hidden;
+}
+
+/* Mobile: prevent horizontal scroll */
+html,
+body {
+    overflow-x: hidden;
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+}

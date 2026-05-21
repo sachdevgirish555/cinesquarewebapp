@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Block dashboard and admin routes from crawlers
+Disallow: /dashboard
+Disallow: /dashboard/
+
+Sitemap: https://www.cinesquare.in/sitemap.xml

@@ -1,0 +1,24 @@
+{
+  "name": "Cine Square Cinemas",
+  "short_name": "CineSquare",
+  "description": "India's fastest-growing cinema chain – luxury screens, premium sound, unforgettable experiences.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#FAC400",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/Favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/Favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["entertainment", "lifestyle"],
+  "lang": "en-IN"
+}
